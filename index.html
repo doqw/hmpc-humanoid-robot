@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EP4VHJ524E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EP4VHJ524E');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="description" content="HMPC-F-QMM">
+  <meta name="keywords" content="Legged Mobile Manipulators">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HMPC</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <!-- <link rel="stylesheet" href="./static/css/fontawesome.all.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="./static/js/ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.min.js"></script>
+  <script src="./static/js/isInViewport.min.js"></script>
+  <!-- <script defer src="./static/js/fontawesome.all.min.js"></script> -->
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <link rel="icon" href="./resources/robot.ico">
+  
+  <script src="https://kit.fontawesome.com/006a5775d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="">
+        <span class="icon">
+            <i class="fas fa-home"></i>
+        </span>
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Related Research
+          </a>
+          <div class="navbar-dropdown">
+            <!-- <a class="navbar-item" href="https://expressive-humanoid.github.io/">
+              Expressive Humanoid
+            </a>
+            <a class="navbar-item" href="https://robot-tv.github.io">
+              Open-TeleVision
+            </a>
+            <a class="navbar-item" href="https://ace-teleop.github.io">
+              ACE: Cross-platform Visual-Exoskeletons
+            </a> -->
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </nav>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+             <!-- <span style="font-weight: normal;">Mobile-TeleVision: <br/><bold><b>P</b>redictive</bold> <b>M</b>otion <b>P</b>riors for Humanoid Whole-Body Control <br> -->
+             <span style="font-weight: normal;">A Hierarchical MPC for Locomotion Tracking Control of Humanoid Robots<br>
+             <!-- <h3 style="font-weight: normal;"> with <img src="resources/logo-192x192.png" alt="Logo" style="vertical-align: text-top;" width="35"><b><a href="https://robot-tv.github.io">TeleVision</a></b></h3> -->
+          </h1>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block">
+              <!-- <a href="">Chenhao Lu*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://chengxuxin.github.io/">Xuxin Cheng*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="">Jialong Li*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://aaronyang1223.github.io/">Shiqi Yang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="">Mazeyu Ji</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.yuanchengjing.com/">Chengjing Yuan</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+              <a href="https://www.episodeyang.com/">Ge Yang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.cs.cmu.edu/~shayi/">Sha Yi</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://xiaolonw.github.io/">Xiaolong Wang</a> -->
+              <a href="">Dongqi Wang, Zhenghan Chen, Jiyu Yu, Liang Zhang, Yue Wang, Haojian Lu, Shaoxing Qu, Rong Xiong</a> 
+              <br><br>
+              <!-- <img src="./resources/UCSanDiegoLogo-BlueGold.png" width="20%" style="margin-right: 100px;"></img>    <img src="./resources/mit-logo.png" width="8%" style="margin-right: 100px;"></img> <br><br> -->
+            </span>
+            <!-- <span class="brmod">ICRA 2025</span><br> -->
+          </div>
+          
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://doqw.github.io/hmpc-humanoid-robot/" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper(Accept)</span>
+                </a>
+              </span>
+              <!-- Arxiv Link. -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/abs/2412.07773" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+              
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>1x Videos</span>
+                </a>
+              </span> -->
+
+              <!-- <span class="link-block">
+                <a href=""
+                    class="external-link button is-normal is-rounded is-dark" target="_blank">
+                    <span class="icon">
+                      <i class="fab fa-bilibili"></i>
+                    </span>
+                    <span>Bilibili</span>
+                </a>
+              </span> -->
+              
+              <!-- <span class="link-block">
+                <a href="https://x.com/xuxin_cheng/status/1866875891391078418" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fa-brands fa-x-twitter"></i>
+                  </span>
+                  <span>Summary</span>
+                </a>
+              </span> -->
+
+              <span class="link-block">
+                <a href="https://doqw.github.io/hmpc-humanoid-robot/" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code Coming Soon</span>
+                </a>
+              </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-bottom: 0">
+  <div class="container">
+    <div id="method_video" class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds no-bottom-padding">
+        <div style="position: relative; max-width: 100%;">
+          <video controls style="width: 100%; border: 1px solid #bbb; border-radius: 10px;">
+            <source src="./video/hmpc_demo_22M.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-2">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            <strong>Purpose:</strong> Locomotion tracking is a critical capability for humanoid robots to navigate environments and perform loco-manipulation tasks. Achieving this requires fulfilling various kinematic and dynamic sub-objectives, such as accurate tracking of the robot's base, joints and feet, environment-collision avoidance, and dynamic balance and stability. The aim of this paper is to propose a controller to generate motions for humanoid robots considering all sub-objectives of locomotion tracking. 
+          </p>
+          <p>
+            <strong>Design/methodology/approach:</strong> In this paper, we introduce a hierarchical MPC framework for the locomotion tracking control problem of humanoid robots. All kinematic sub-objectives are firstly solved at the high-level MPC using full kinematics with second-order kinematics of base. Both kinematic and dynamic sub-objectives are optimized in the low-level kinodynamic MPC considering centroidal dynamics and surface contact dynamics. 
+          </p>
+          <p>
+            <strong>Findings:</strong> We validate the effectiveness of our method through extensive simulation and hardware experiments. In comparison to traditional whole-body MPC, the proposed method improves the locomotion tracking accuracy while reducing the violations of the system's physical limit constraints and environment-collision avoidance constraints.
+          </p>
+          <p>
+            <strong>Originality:</strong> Both reinforcement learning (RL) and whole-body model predictive control (MPC) have become popular approaches for motion control of legged robots. However, achieving all the sub-objectives of locomotion within a single policy remains a challenge for RL methods. Due to computation limitations and strict real-time requirements, it is difficult for the whole-body MPC to generate optimal motions over a short horizon while considering multiple tracking goals and nonlinear dynamics of humanoid robots.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <h2 class="title is-3">Algorithm Applied in WRC 2024</h2>
+    <div style="width: 80%; max-width: 960px; margin: 0 auto;">
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border: 1px solid #bbb; border-radius: 10px;">
+        <iframe 
+          src="//player.bilibili.com/player.html?bvid=BV17Epme1E3C&autoplay=0" 
+          allowfullscreen="true"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 10px;">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</body>
+
+<script>
+  var mainLoopId = setInterval(function(){
+        $('video').not('#teaser').each(function(){
+      if ($(this).is(":in-viewport")) {
+          $(this)[0].play();
+      } else {
+          $(this)[0].pause();
+      }
+      })
+    },200);
+</script>
+
+</html>
